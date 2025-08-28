@@ -36,3 +36,23 @@ Modify paths to match your local dataset if necessary.
 ## Models Used
 LSTM(Long Short Term Memory) 
 GARCH(Generalized Autoregressive Conditional Heteroskedasticity)
+
+
+# Data Sources and Notes
+
+## Bitcoin Daily Prices
+- Source: Yahoo Finance ([https://finance.yahoo.com/quote/BTC-USD/history)](https://finance.yahoo.com/quote/BTC-GBP/history/?filter=history&frequency=1d&period1=1594771200&period2=1752537600))
+- Frequency: Daily
+- Variables: Date, Open, High, Low, Close, Adj Close, Volume
+- Licence: Free to use for academic purposes (attribution recommended).
+
+## UK Inflation (CPI)
+- Source: Office for National Statistics ([https://www.ons.gov.uk/economy/inflationandpriceindices](https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l55o/mm23))
+- Frequency: Monthly (converted to match daily BTC series by forward filling).
+- Variables: CPI % annual change.
+- Licence: Open Government Licence v3.0 (you are free to use, attribution required).
+
+## Notes
+- Large raw files are not pushed to GitHub due to size/licensing.
+- All processing steps are fully documented in `01_data_cleaning.ipynb`.
+
