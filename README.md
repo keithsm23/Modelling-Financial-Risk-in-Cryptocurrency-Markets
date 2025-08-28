@@ -1,6 +1,6 @@
 # Modelling Financial Risk in Cryptocurrency Markets
 
-This repository contains code for my MSc Data Science final project. The goal of this project is to model and analyze financial risk in the cryptocurrency markets using deep learning models like LSTM(Long Short Term Memory) and econometric models like GARCH(Generalized Autoregressive Conditional Heteroskedasticity).
+This repository contains the code for my MSc Data Science project **“Modelling Financial Risk in Cryptocurrency Markets”**. The goal is to compare a point-forecasting LSTM (Long Short Term Memory) approach with a GARCH (Generalized Autoregressive Conditional Heteroskedasticity) volatility model and to investigate whether UK inflation adds predictive value to BTC forecasts.
 
 ## Contents
 - Modelling_Financial_Risk_in_Cryptocurrency_Markets.ipynb: Main notebook with preprocessing, neural network training, and GARCH analysis.
