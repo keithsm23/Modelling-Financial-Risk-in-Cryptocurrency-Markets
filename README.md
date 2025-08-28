@@ -32,8 +32,9 @@ Clone the Repository
 Use the command below to download the project to your computer.
 
 bash
-git clone https://github.com/your-username/Modelling-Financial-Risk-in-Cryptocurrency-Markets.git
-Important: Replace your-username with your actual GitHub username.
+git clone https://github.com/your-username/Modelling-Financial-Risk-in-Cryptocurrency-Markets.git  
+
+Replace your-username with your actual GitHub username.
 
 Navigate to the Project Directory
 Change your current directory to the project folder.
