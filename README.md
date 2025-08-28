@@ -38,7 +38,7 @@ LSTM(Long Short Term Memory)
 GARCH(Generalized Autoregressive Conditional Heteroskedasticity)
 
 
-# Data Sources and Notes
+## Data Sources
 
 ## Bitcoin Daily Prices
 - Source: Yahoo Finance ([https://finance.yahoo.com/quote/BTC-USD/history)](https://finance.yahoo.com/quote/BTC-GBP/history/?filter=history&frequency=1d&period1=1594771200&period2=1752537600))
@@ -51,8 +51,4 @@ GARCH(Generalized Autoregressive Conditional Heteroskedasticity)
 - Frequency: Monthly (converted to match daily BTC series by forward filling).
 - Variables: CPI % annual change.
 - Licence: Open Government Licence v3.0 (you are free to use, attribution required).
-
-## Notes
-- Large raw files are not pushed to GitHub due to size/licensing.
-- All processing steps are fully documented in `01_data_cleaning.ipynb`.
 
