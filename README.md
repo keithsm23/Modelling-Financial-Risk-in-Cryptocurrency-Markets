@@ -5,7 +5,7 @@ This repository contains code for my MSc Data Science final project. The goal of
 ## Contents
 - Modelling_Financial_Risk_in_Cryptocurrency_Markets.ipynb: Main notebook with preprocessing, neural network training, and GARCH analysis.
 - BTC_GBP_Historical_Data.csv: The cryptocurrency price data (or mention external source if too large).
-- Inflation.csv: The inflation data 
+- Inflation_data.csv: The inflation data 
 - plots/: Folder with training graphs and GARCH outputs.
 - Keith_23034718_Final_Project_Report.pdf: Final report.
 
