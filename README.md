@@ -23,7 +23,7 @@ You can install them using:
 bash
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow arch.
 
-# How to use
+## How to use
 Clone the repository:
 
 bash
@@ -33,6 +33,6 @@ git clone https://github.com/your-username/crypto-risk-modelling.git
 Open the Jupyter notebook and run it step-by-step.
 Modify paths to match your local dataset if necessary.
 
-# Models Used
+## Models Used
 LSTM(Long Short Term Memory) 
 GARCH(Generalized Autoregressive Conditional Heteroskedasticity)
