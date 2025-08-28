@@ -25,18 +25,35 @@ pip install pandas numpy matplotlib seaborn scikit-learn tensorflow arch.
 
 ## How to use
 Clone the repository:
+How to Use
+To get a local copy of the project up and running on your machine, please follow these simple steps.
+
+Clone the Repository
+Use the command below to download the project to your computer.
 
 bash
-Copy
-Edit
-git clone https://github.com/your-username/crypto-risk-modelling.git
-Open the Jupyter notebook and run it step-by-step.
-Modify paths to match your local dataset if necessary.
+git clone https://github.com/your-username/Modelling-Financial-Risk-in-Cryptocurrency-Markets.git
+Important: Replace your-username with your actual GitHub username.
 
-## Models Used
-LSTM(Long Short Term Memory) 
-and 
-GARCH(Generalized Autoregressive Conditional Heteroskedasticity)
+Navigate to the Project Directory
+Change your current directory to the project folder.
+
+bash
+cd Modelling-Financial-Risk-in-Cryptocurrency-Markets
+Install Dependencies
+Install the required Python libraries listed in the requirements.txt file.
+
+bash
+pip install -r requirements.txt
+Run the Jupyter Notebook
+Launch Jupyter Notebook to open and execute the analysis.
+
+bash
+jupyter notebook
+Once Jupyter is running in your browser, open the file Crypto_Risk_Modelling_Analysis.ipynb (or your main notebook's filename) and run the cells sequentially.
+
+Note: The notebook will attempt to load the dataset from the specified path in the code (e.g., data/BTC_GBP_and_UK_inflation.csv). Please ensure you have the dataset in the correct location or update the file path in the notebook accordingly.
+
 
 
 ## Data Sources
