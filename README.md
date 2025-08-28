@@ -35,6 +35,7 @@ Modify paths to match your local dataset if necessary.
 
 ## Models Used
 LSTM(Long Short Term Memory) 
+and 
 GARCH(Generalized Autoregressive Conditional Heteroskedasticity)
 
 
