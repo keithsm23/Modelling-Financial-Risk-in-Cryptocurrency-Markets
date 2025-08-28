@@ -31,10 +31,10 @@ Copy
 Edit
 git clone https://github.com/your-username/crypto-risk-modelling.git
 Open the Jupyter notebook and run it step-by-step.
-
 Modify paths to match your local dataset if necessary.
 
 # Models Used
-Neural Network (Keras) for binary classification of returns.
+LSTM(Long Short Term Memory) 
+GARCH(Generalized Autoregressive Conditional Heteroskedasticity)
 
 GARCH(1,1) model for volatility prediction.
