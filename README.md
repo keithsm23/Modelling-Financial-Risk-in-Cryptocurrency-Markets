@@ -36,5 +36,3 @@ Modify paths to match your local dataset if necessary.
 # Models Used
 LSTM(Long Short Term Memory) 
 GARCH(Generalized Autoregressive Conditional Heteroskedasticity)
-
-GARCH(1,1) model for volatility prediction.
